@@ -85,10 +85,6 @@ class PopupInfo extends Model
 
                 return $res;
     }
-
-
-
-
 }
 
 
