@@ -25,7 +25,7 @@ class AlterTablePengelolaanKategoriChangeActive extends Migration
      *
      * @return void
      */
-    public function down()
+    public function down()  
     {
         Schema::table('pengelolaan_kategori', function (Blueprint $table) {
             $table->dropColumn('ACTIVE');
