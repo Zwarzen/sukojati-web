@@ -1,0 +1,244 @@
+.table > thead > tr > th{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.card{
+    padding: 0rem !important;
+}
+
+.card-button {
+    display: table;
+    height: 220px;
+    font-size: 38px;
+    color: #e74c3c;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.card-title{
+  text-align: left;
+}
+
+.card-text{
+  text-align: left;
+}
+
+
+.resume-wrap .title {
+  font-size: 2rem !important;
+}
+
+.resume-wrap .title-sub {
+  text-align: center;
+  margin-top: -1rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .resume-wrap {
+    align-content: center;
+    width: 100%;
+    padding: 1rem 5% 1rem 5%;
+    text-align: center;
+  }
+
+  .resume-wrap .title {
+    font-size: 1.2rem !important;
+  }
+
+  .resume-wrap .title-sub {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem !important;
+  }
+}
+
+.card-resume .card-img-top {
+  padding: 1rem 0rem 2rem 0rem;
+  background: #f0f0f0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: #1b212c;
+}
+
+.card-resume .card-img-top .title-status {
+  font-size: 2rem;
+  margin-bottom: -0.8rem;
+}
+
+.card-resume .card-img-top .sub-title-status {
+  font-size: 1.2rem;
+}
+
+.card-resume .level .total-level {
+  font-size: 4rem;
+}
+
+.card-resume .level .total-name-level {
+  color: #1b212c;
+  margin-top: -1rem;
+}
+
+.card-resume .level .wrap-detail-total {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+
+.card-resume .level .wrap-detail-total .column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-resume .level .wrap-detail-total .column .column-1 {
+  flex: 1;
+  font-size: 2rem;
+}
+
+.card-resume .level .wrap-detail-total .column .column-1 .column-1-sub {
+  font-size: 1.5rem;
+}
+
+.card-resume .level .wrap-detail-total .column .column-2 {
+  flex: 1;
+  color: #1b212c;
+  font-size: 1rem;
+}
+
+
+.card{
+    border: 0.01rem solid #bebebe;
+    border-radius: 0.5rem;
+    box-shadow: 1px 11px 18px -15px rgba(0,0,0,0.75);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 767.98px) {
+  .card-resume {
+    margin-bottom: 0.5rem;
+  }
+
+  .card-resume .card-img-top {
+    padding: 0.8rem 0rem 0.8rem 0rem;
+  }
+
+  .card-resume .card-img-top .title-status {
+    font-size: 2rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .card-resume .card-img-top .sub-title-status {
+    font-size: 1rem;
+  }
+}
+
+.odp-level {
+  color: #12a712;
+}
+
+.pdp-level {
+  color: #dbac12;
+}
+
+.covid-level {
+  color: #eb1717;
+}
+
+
+/**IZIN HU.. **/
+.jml_angka {
+	font-family: 'Roboto';
+	text-align: center;
+	font-weight: 400;
+}
+
+
+.jml_angka span {
+	font-family: 'Roboto';
+	text-align: center;
+    font-weight: 300;
+    display: block;
+    font-size: 14px;
+    color:#000000;
+}
+.semua {
+	font-size: 40px;
+}
+
+.filter {
+	font-size: 30px;
+}
+.odp {
+	color: green;
+}
+
+.pdp {
+	color: orange;
+}
+.suspect {
+	color: red;
+}
+
+.peta-sebaran {
+    width: 100%;
+    height: 750px;
+}
+
+.info-peta {
+	text-align: center;
+	padding: 10px;
+}
+
+span.info-peta-zonk {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: green;
+}
+span.info-peta-odp {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #3989fc;
+	margin-left:10px;
+}
+
+span.info-peta-pdp {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #FFA500;
+	margin-left:10px;
+}
+span.info-peta-suspect {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: red;
+  	margin-left:10px;
+}
+
+@media (max-width: 767.98px) {
+  .peta-sebaran {
+    width: 100%;
+    height: 550px;
+    }
+    .info-peta {
+	text-align: center;
+	padding: 10px;
+	margin-bottom:5px !important;
+}
+}

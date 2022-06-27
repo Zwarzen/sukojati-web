@@ -1,0 +1,288 @@
+/* #####################################################################
+   #
+   #   Author        : Salman Iqbal
+   #   Created       : 18/01/2017
+   #   Last Change   : 25/01/2017
+   #
+   ##################################################################### */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,400,900');
+
+#login-modal .modal-dialog {
+    width: 350px;
+}
+
+#login-modal input[type=text], input[type=password] {
+	margin-top: 10px;
+}
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    border-radius: 0px;
+}
+
+.btn-link {
+    padding: 5px 10px 0px 0px;
+    color: #95a5a6;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+.noty-color
+{
+  background-color: #e60000;
+  border: 0px;
+  color: white;
+}
+.success-noty
+{
+  background-color: #2d862d;
+  border: 0px;
+  color: white;
+}
+.error
+{
+  color: red;
+}
+.alert-danger
+{
+  background-color: #e60000;
+  border: 0px;
+  color: white;
+}
+.close
+{
+  color: white;
+}
+.form-control
+{
+  border-radius: 4px;
+}
+.alert-success-alt
+{
+  background-color:rgb(74, 179, 51);
+  color: white;
+  border: 0px;
+}
+.login-logo
+{
+  padding: 0px 0px 10% 15%;
+}
+.invalid-field{
+  background-color:#B6334C !important;
+  color:white;
+  -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/*Login Page*/
+
+.navbar 
+{
+  /*background-color: #262626 !important;*/
+  /*color: white !important;*/
+  font-size: 17px;
+  border-bottom: 1px solid #00ffbf;
+  background:transparent;
+}
+
+.login-box
+{
+  width: 70%;
+  height: 420px;
+  border: 1px solid #00ffbf;
+  margin:8em 0px 0px 10em;
+}
+
+.login-header
+{
+  border-bottom: 1px solid #00ffbf;
+  width: 90%;
+  height: 3em;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+.bg-img
+{
+  background-image: url('../img/back.png');
+  background-size:100% 175%;
+}
+
+.btn-login
+{
+  width: 25% !important;
+  border-radius: 0px;
+  background-color: #00ffbf;
+  color: white;
+  font-size: 17px;
+  /*font-weight: Semi-Bold;*/
+  font-family: 'Raleway', sans-serif;
+}
+.login-box .form-control
+{
+  border-radius: 0px;
+  background:rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  .label 
+  {
+    margin-left: 6%;
+  }
+  .login-box .form-control 
+  {
+    width: 85%;
+    margin-left: 5%;
+  }
+  #remember
+  {
+    margin-left: 5%;
+  }
+  .buttons
+  {
+    margin-left: 5%;
+  }
+  .login-header {
+    width: 80%;
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .login-box
+  {
+    width: 100%;
+    margin: 0px;
+  }
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+} 

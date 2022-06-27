@@ -1,0 +1,26 @@
+@media print {
+
+ 	.container{
+ 		padding-top: 40px
+ 	}
+ 	.panel-primary
+ 	{
+ 		border-color: #bce8f1;
+ 	}
+ 	.panel-heading 
+ 	{
+		color: #31708f;
+  		background-color: #d9edf7;
+  		border-color: #bce8f1;
+	}
+	table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+}

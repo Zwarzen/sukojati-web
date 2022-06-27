@@ -1,0 +1,22 @@
+/node_modules
+# /public/hot
+# /public/storage
+/public/media/*
+# /storage/*.key
+/vendor
+.env
+.env.backup
+.env copy.example
+.halaman.sql
+# .phpunit.result.cache
+# docker-compose.override.yml
+# Homestead.json
+# Homestead.yaml
+# npm-debug.log
+# yarn-error.log
+# /.idea
+# /.vscode
+# public/assets/b-assets/lib/ckfinder/core/connector/php/vendor/cksource/ckfinder
+
+
+public/srcadmin/b-assets/lib/ckfinder/core/connector/php/vendor/cksource/ckfinder
