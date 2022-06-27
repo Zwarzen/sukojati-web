@@ -21,7 +21,7 @@ class CreateBeritafotoItemsTable extends Migration
             $table->string("img_thumb")->nullable()->default(null);
             $table->string("img_raw")->nullable()->default(null);
             $table->longText("img_desc")->nullable()->default(null);
-            $table->longText("img_desc")->nullable()->default(null);
+            // $table->longText("img_desc")->nullable()->default(null);
             $table->enum("is_utama",['yes', 'no'])->default("no");
             $table->integer("urutan")->default(0);
             $table->unsignedBigInteger('beritafotos_id');
