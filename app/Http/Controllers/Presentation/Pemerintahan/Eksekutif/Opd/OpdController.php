@@ -102,7 +102,8 @@ class OpdController extends Controller
         //Attempt to read property "kd_unor" on null 
         $this->data['latestBerita']     = $berita->latest(4,["a.unor","=",$opd->kd_unor]);
         $this->data['latestGaleri']     = $galeri->latest(6,["kd_unor","=",$opd->kd_unor]);
-
+        dd($this->data['latestBerita']);
+        
         $this->data['pageTitle'] = "Pemerintah ". $opd->nama. " - Kabupaten Banyuwangi";
         $this->data['keywords'] = "Pemerintahan ". $opd->nama. " - Kabupaten Banyuwangi";
         $this->data['description'] = "Website resmi Pemerintahan ". $opd->nama. " - Kabupaten Banyuwangi";
@@ -208,11 +209,10 @@ class OpdController extends Controller
 
     public function visimisi($slugOpd){
         $this->data['slug'] = $slugOpd;
-        $this->data['pageContent'] = "presentation.module.pemerintahan.eksekutif.opd.opdVisiMisiParts";
-
+        $this->data['pageContent'] = "presentation.module.pemerintahan.eksekutif.opd.opdVisiMisiParts";        
         return view($this->nmPart."/opdIndex",$this->data);
     }
-
+    
     public function struktur($slugOpd){
         $this->data['slug'] = $slugOpd;
         $this->data['pageContent'] = "presentation.module.pemerintahan.eksekutif.opd.opdStrukturParts";
