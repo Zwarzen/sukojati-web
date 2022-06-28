@@ -178,5 +178,5 @@
         });
     </script>
 @else
-<!-- {{ count($latestBannerOpdData)  }} -->
+{{ count($latestBannerOpdData)  }}
 @endif
