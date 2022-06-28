@@ -23,7 +23,7 @@
 
 
                     @yield('pageContentArtikel')
-
+                    
                     <!-- Load Facebook SDK for JavaScript -->
 
 

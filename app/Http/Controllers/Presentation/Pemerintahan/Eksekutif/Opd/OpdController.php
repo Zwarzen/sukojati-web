@@ -102,8 +102,8 @@ class OpdController extends Controller
         //Attempt to read property "kd_unor" on null 
         $this->data['latestBerita']     = $berita->latest(4,["a.unor","=",$opd->kd_unor]);
         $this->data['latestGaleri']     = $galeri->latest(6,["kd_unor","=",$opd->kd_unor]);
-        dd($this->data['latestBerita']);
-        
+        // dd($this->data['latestBerita']);
+        // dd($this->data['latestGaleri']);
         $this->data['pageTitle'] = "Pemerintah ". $opd->nama. " - Kabupaten Banyuwangi";
         $this->data['keywords'] = "Pemerintahan ". $opd->nama. " - Kabupaten Banyuwangi";
         $this->data['description'] = "Website resmi Pemerintahan ". $opd->nama. " - Kabupaten Banyuwangi";
