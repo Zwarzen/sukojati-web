@@ -26,7 +26,6 @@
 
         @include("presentation.module.opd.opdListBanner",['latestBannerOpdData'=>$latestBannerOpd])
 
-
         <div>
 
         </div>
