@@ -97,7 +97,9 @@ class OpdController extends Controller
         $opd = $this->getOpdAvailabe();
         // dd($opd->kd_unor);
 
-        $this->data['latestBannerOpd']  = $popupinfo->latest(12,["unor","=",$opd->kd_unor]); //Attempt to read property "kd_unor" on null 
+        $this->data['latestBannerOpd']  = $popupinfo->latest(12,["unor","=",$opd->kd_unor]); 
+        
+        //Attempt to read property "kd_unor" on null 
         $this->data['latestBerita']     = $berita->latest(4,["a.unor","=",$opd->kd_unor]);
         $this->data['latestGaleri']     = $galeri->latest(6,["kd_unor","=",$opd->kd_unor]);
 
