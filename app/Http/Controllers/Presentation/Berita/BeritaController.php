@@ -80,6 +80,7 @@ class BeritaController extends Controller
         // dd($this->data['base_link_media_thumbnail']);
         // dd($this->data['base_link_media_raw']);
         $this->data['beritaMainKategori'] = $kanalBerita->getMainKanalBeritaByUnorOPd( $opd->kd_unor );
+        // dd($this->data['beritaMainKategori']);
     }
 
     public function index(Berita $berita, KanalBerita $kanalBerita)

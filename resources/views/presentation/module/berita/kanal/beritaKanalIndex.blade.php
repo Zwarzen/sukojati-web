@@ -36,7 +36,7 @@
             <div id="p-2" class="" style="scroll-behavior: smooth; min-height: 100vh; padding-top:50px">
                 <div id="p-2-inner">
 
-                    <div style="margin-top:-2rem;"></div>
+                    <div style="margin-top: 1rem;"></div>
                     <div class="container">
                         <div style="text-align:center; font-size: 2rem; font-weight:600">Kanal {{ $kanal->name }} </div>
                     </div>
