@@ -77,7 +77,8 @@ class BeritaController extends Controller
         $this->data['base_link_media_thumbnail'] = asset('media/berita/thumbnail/')."/";
         $this->data['base_link_media_raw'] = asset('media/berita/original/')."/";
         $this->data['type_news'] = "text";
-
+        // dd($this->data['base_link_media_thumbnail']);
+        // dd($this->data['base_link_media_raw']);
         $this->data['beritaMainKategori'] = $kanalBerita->getMainKanalBeritaByUnorOPd( $opd->kd_unor );
     }
 
