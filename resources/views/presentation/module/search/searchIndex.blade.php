@@ -173,7 +173,7 @@ $opdProfile = isset($opd) ? $opd : $opdViaServicesProvider;
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-12 col-md-12">
                 <div class="logo-bwi-search-page-container">
                     <a class="navbar-brand" href="{{ url('./') }}">
                         <div class="navbar-brand-wrp">
