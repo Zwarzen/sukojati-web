@@ -4,16 +4,13 @@
 <link itemprop="thumbnailUrl" href="{{ $halamanDetail->img_thumb != '' || $halamanDetail->img_thumb != null?  $base_link_media_thumbnail .$halamanDetail->img_thumb : asset('presentation/b-asset/img/lambang-daerah.png') }}">
 
 <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+
 <link itemprop="url" href="{{ $halamanDetail->img_thumb != '' || $halamanDetail->img_thumb != null?  $base_link_media_thumbnail .$halamanDetail->img_thumb : asset('presentation/b-asset/img/lambang-daerah.png') }}">
+
 </span>
-
-
     <div style="height: 5vh"></div>
     <div style="height: 5vh"></div>
     <div class="container">
-
-
-
         <div class="row">
             <div class="col-12 col-lg-8 col-md-12">
                 <article>
@@ -59,12 +56,10 @@
             </div> --}}
             @endif
 
-
         </div>
 
         <br>
         <br>
-
 
         @if(isset($beritaRelated) && count($beritaRelated)> 0)
         <div style="font-weight: 600">Berita Terkait</div>

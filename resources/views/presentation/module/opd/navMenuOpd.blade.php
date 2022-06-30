@@ -34,11 +34,8 @@
     <li class="nav-item dropdown open">
         <a class="nav-link a-nav dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
             Profil
-
-
         </a>
         <ul title="memuat halaman profil" class="dropdown-menu dropdown-menu-right">
-
             <li>
                 <a class="dropdown-item dropdown-toggle" href="#">
                     Pemerintahan
@@ -48,7 +45,6 @@
                         <a class="dropdown-item " href="#">
                             Visi Misi
                         </a>
-
                     </li>
                     <li>
                         <a class="dropdown-item dropdown-toggle" href="#">
