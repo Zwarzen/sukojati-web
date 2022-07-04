@@ -32,7 +32,7 @@
     <!-- Menu boostrap 4 -->
     <script>
 
-        
+        // test-mobile
 
         function showBasedModal(){
             $("#navbar_based_modal").removeClass("show");
@@ -76,7 +76,7 @@
                     
 
                     var offcanvas_id = $(this).attr('data-trigger');
-
+ 
 
                     $('#ctn-utama, #topNav, .based-div-1, .bottom-based-tools-wrp, .based-page-opd').addClass("enableBlur");
                     $('#ctn-utama, #topNav, .based-div-1, .bottom-based-tools-wrp, .based-page-opd').removeClass("disableBlur");

@@ -4,7 +4,7 @@ function laySubMenus($nn){
     foreach($nn as $k => $row){
         if(count($row->child)>0){
             echo '<li>
-            <a class="dropdown-item dropdown-toggle" href="#">
+            <a class="dropdown-item dropdown-toggle" href="#" >
             '.$row->nama.'
             </a>';
                 echo ' <ul title="'.$row->desc.'"
@@ -22,8 +22,6 @@ function laySubMenus($nn){
 
 
 function layTheMenus($n,$sub = null){
-
-
     foreach($n as $k => $row){
         $fontweight = (count($row->child)>0) || ($row->parent_id==0) ? 'bold' :'normal';
         $parent = count($row->child)>0? "xparent":null;
@@ -34,7 +32,7 @@ function layTheMenus($n,$sub = null){
             if($row->parent_id != 0){
                 if($sub!=null){
                     echo '<li>
-                    <a class="dropdown-item dropdown-toggle submenu-mom" href="#" >
+                    <a class="dropdown-item dropdown-toggle submenu-mom" href="#" data-toggle="dropdown">
                     '.$row->nama.'
                     </a>';
                         echo ' <ul title="'.$row->desc.'"
@@ -46,22 +44,20 @@ function layTheMenus($n,$sub = null){
                     echo "</li>";
                 }else{
                     echo '<li>
-                    <a class="dropdown-item dropdown-toggle submenu-mom" href="#">
+                    <a class="dropdown-item dropdown-toggle" href="#" >
                     '.$row->nama.'
                     </a>';
                         echo ' <ul title="'.$row->desc.'"
                         class=" submenu submenu-left dropdown-menu" >';
                         layTheMenus($row->child,null);
                         echo '</ul>';
-
-
                     echo "</li>";
                 }
             }
 
             else{
                 echo '<li class="nav-item dropdown">
-                <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                 '.$row->nama.'
                 </a>';
                     echo ' <ul title="'.$row->desc.'"
