@@ -44,7 +44,7 @@ function layTheMenus($n,$sub = null){
                     echo "</li>";
                 }else{
                     echo '<li>
-                    <a class="dropdown-item dropdown-toggle" href="#" >
+                    <a class="dropdown-item dropdown-toggle" href="#" aria-expanded="false" >
                     '.$row->nama.'
                     </a>';
                         echo ' <ul title="'.$row->desc.'"
