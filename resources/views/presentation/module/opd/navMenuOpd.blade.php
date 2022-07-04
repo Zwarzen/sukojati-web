@@ -71,7 +71,7 @@
                 </ul>
             </li>
             <li>
-                <a class="dropdown-item dropdown-toggle" href="#" aria-expanded="false">
+                <a class="dropdown-item dropdown-toggle" href="#">
                     Sejarah
                 </a>
                 <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu">
@@ -137,10 +137,10 @@
                 </ul>
             </li>
             <li>
-                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#" >
+                <a class="dropdown-item dropdown-toggle" href="#">
                     Sejarah
                 </a>
-                <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu" aria-expanded="false">
+                <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu">
                     <li class=" nav-item  ">
                         <a class="dropdown-item" title=" " href="#">
                             Sejarah asal usul desa
@@ -165,7 +165,7 @@
     </li>
 
     <li class="nav-item dropdown open">
-        <a class="nav-link a-nav dropdown-toggle" href="#" data-toggle="dropdown" aria-label="false">
+        <a class="nav-link a-nav dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
             Transparansi
         </a>
 

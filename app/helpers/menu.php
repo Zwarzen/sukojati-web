@@ -48,7 +48,8 @@ function layTheMenus($n,$sub = null){
                     '.$row->nama.'
                     </a>';
                         echo ' <ul title="'.$row->desc.'"
-                        class=" submenu submenu-left dropdown-menu" >';
+                        class="  submenu-left dropdown-menu" >';
+                        //submenu
                         layTheMenus($row->child,null);
                         echo '</ul>';
                     echo "</li>";
