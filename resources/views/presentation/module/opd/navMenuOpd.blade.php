@@ -140,7 +140,7 @@
                 <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#" >
                     Sejarah
                 </a>
-                <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu" aria-expanded="false">
                     <li class=" nav-item  ">
                         <a class="dropdown-item" title=" " href="#">
                             Sejarah asal usul desa
