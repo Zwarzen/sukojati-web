@@ -71,7 +71,7 @@
                 </ul>
             </li>
             <li>
-                <a class="dropdown-item dropdown-toggle" href="#">
+                <a class="dropdown-item dropdown-toggle" href="#" aria-expanded="false">
                     Sejarah
                 </a>
                 <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu">
@@ -137,7 +137,7 @@
                 </ul>
             </li>
             <li>
-                <a class="dropdown-item dropdown-toggle" href="#">
+                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">
                     Sejarah
                 </a>
                 <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu">
