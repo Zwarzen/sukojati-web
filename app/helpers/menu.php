@@ -44,11 +44,11 @@ function layTheMenus($n,$sub = null){
                     echo "</li>";
                 }else{
                     echo '<li>
-                    <a class="dropdown-item dropdown-toggle" href="#" aria-expanded="false" >
+                    <a class="dropdown-item dropdown-toggle" href="#" >
                     '.$row->nama.'
                     </a>';
                         echo ' <ul title="'.$row->desc.'"
-                        class="  submenu-left dropdown-menu" >';
+                        class="submenu-left dropdown-menu" >';
                         //submenu
                         layTheMenus($row->child,null);
                         echo '</ul>';
