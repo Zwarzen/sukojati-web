@@ -209,7 +209,7 @@
                 <a class="dropdown-item dropdown-toggle" href="#">
                     Sejarah
                 </a>
-                <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu">
+                <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu" aria-expanded="false">
                     <li class=" nav-item  ">
                         <a class="dropdown-item" title="Menerangkan tentang struktur organisasi Sekretariat DPRD "
                             href="https://dprd.banyuwangikab.go.id/v2/sekretariat/sotk"
