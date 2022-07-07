@@ -20,7 +20,6 @@ function laySubMenus($nn){
     }
 }
 
-
 function layTheMenus($n,$sub = null){
     foreach($n as $k => $row){
         $fontweight = (count($row->child)>0) || ($row->parent_id==0) ? 'bold' :'normal';
@@ -48,13 +47,20 @@ function layTheMenus($n,$sub = null){
                     '.$row->nama.'
                     </a>';
                         echo ' <ul title="'.$row->desc.'"
-                        class="submenu submenu-left dropdown-menu" >';
+                        class="submenu-left dropdown-menu" >';
                         //submenu
                         layTheMenus($row->child,null);
                         echo '</ul>';
                     echo "</li>";
                 }
             }
+            // $(document).ready(function(){
+            //     $('.dropdown-submenu a.test').on("click", function(e){
+            //       $(this).next('ul').toggle();
+            //       e.stopPropagation();
+            //       e.preventDefault();
+            //     });
+            //   });
 
             else{
                 echo '<li class="nav-item dropdown">
@@ -69,8 +75,6 @@ function layTheMenus($n,$sub = null){
 
                 echo "</li>";
             }
-
-
         }
 
         else{
