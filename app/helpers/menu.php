@@ -43,11 +43,11 @@ function layTheMenus($n,$sub = null){
                     echo "</li>";
                 }else{
                     echo '<li>
-                    <a class="dropdown-item dropdown-toggle" href="#" >
+                    <a class="nav-link a-nav dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
                     '.$row->nama.'
                     </a>';
                         echo ' <ul title="'.$row->desc.'"
-                        class="submenu-left dropdown-menu" >';
+                        class="submenu submenu-left dropdown-menu" >';
                         //submenu
                         layTheMenus($row->child,null);
                         echo '</ul>';
@@ -61,7 +61,6 @@ function layTheMenus($n,$sub = null){
             //       e.preventDefault();
             //     });
             //   });
-
             else{
                 echo '<li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
@@ -209,11 +208,6 @@ function drawSelectListBeringkatEditPage($data,$mPage=null,$parent_id_for_sub){
             // echo "<option value='$v->id' >$tab".' '."$v->nama <small> [ level: $i ]</small></option>";
         }
 
-
-
-
-
-
         if(count($v->child)>0){
             drawSelectListBeringkatEditPage($v->child,$mPage,$parent_id_for_sub);
             $i--;
@@ -222,5 +216,3 @@ function drawSelectListBeringkatEditPage($data,$mPage=null,$parent_id_for_sub){
         }
     }
 }
-
-
