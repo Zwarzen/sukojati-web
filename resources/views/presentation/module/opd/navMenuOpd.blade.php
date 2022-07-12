@@ -73,7 +73,7 @@
 
             <!-- PERBAIKAN -->
             <li>
-            <a class="nav-link a-nav dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                <a class="dropdown-item dropdown-toggle" href="#"> 
                     Sejarah
                 </a>
                 <ul title="Menampilkan informasi tentang Sejarah" class="submenu submenu-left dropdown-menu">
